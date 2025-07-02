@@ -1,0 +1,33 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+
+# 🧪 Virtual Environments
+venv/
+env/
+
+# 🔐 Secrets & Environment Files
+.env
+*.env
+
+# 📂 Compiled, cache & system files
+.DS_Store
+Thumbs.db
+
+# 🔄 Streamlit
+.streamlit/
+
+# 🧪 Temporary or backup files
+*~ 
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# 📦 Data files
+cleaned_logs.json
+streamlit_app - Copy.py

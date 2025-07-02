@@ -1,0 +1,87 @@
+[
+  {
+    "eventTime": "2025-06-30T10:22:00Z",
+    "eventName": "ConsoleLogin",
+    "sourceIPAddress": "198.51.100.23",
+    "userIdentity": { "userName": "admin" },
+    "responseElements": { "ConsoleLogin": "Success" }
+  },
+  {
+    "eventTime": "2025-06-30T02:03:12Z",
+    "eventName": "DeleteBucket",
+    "sourceIPAddress": "10.0.0.10",
+    "userIdentity": { "userName": "tejas" }
+  },
+
+  
+  {
+  "log_type": "Authentication Logs",
+  "timestamp": "2025-07-02T12:01:45Z",
+  "source_ip": "192.168.0.105",
+  "destination_ip": "10.0.0.5",
+  "user": "jdoe",
+  "event_type": "login_failure",
+  "protocol": "SSH",
+  "result": "failure",
+  "reason": "invalid_password"
+},
+
+{
+  "log_type": "dns_query",
+  "timestamp": "2025-07-02T12:05:23Z",
+  "client_ip": "192.168.0.112",
+  "dns_server": "10.0.0.53",
+  "query": "suspicious-site.evil",
+  "query_type": "A",
+  "query_class": "IN",
+  "response_code": "NXDOMAIN",
+  "malicious_score": 85,
+  "domain_category": "phishing_candidate",
+  "threat_intel_source": "internal_watchlist"
+},
+
+{
+  "log_type": "Firewall Logs",
+  "timestamp": "2025-07-02T12:10:00Z",
+  "source_ip": "203.0.113.55",
+  "destination_ip": "192.168.0.100",
+  "action": "deny",
+  "protocol": "TCP",
+  "port": 3389,
+  "rule_id": "FW1002",
+  "threat_level": "high"
+},
+
+{
+  "log_type": "Windows Event Logs (Security)",
+  "timestamp": "2025-07-02T12:12:47Z",
+  "event_id": 4625,
+  "source": "Microsoft-Windows-Security-Auditing",
+  "user": "unknown",
+  "logon_type": 3,
+  "failure_reason": "Unknown user name or bad password",
+  "workstation": "WIN-STATION01"
+},
+{
+  "log_type": "Malware Detection Log (Endpoint Security)",
+  "timestamp": "2025-07-02T12:22:31Z",
+  "device_id": "LAPTOP-9001",
+  "user": "p.kumar",
+  "detection_engine": "SentinelAV",
+  "threat_name": "Trojan.GenericKD.4201",
+  "severity": "critical",
+  "action_taken": "quarantined",
+  "file_path": "C:\\Users\\p.kumar\\AppData\\malicious.exe"
+},
+{
+  "log_type": "Data Exfiltration Alert (DLP System)",
+  "timestamp": "2025-07-02T12:24:56Z",
+  "user": "jane.doe",
+  "source_ip": "192.168.0.85",
+  "destination_ip": "8.8.8.8",
+  "file_name": "confidential_strategy.pdf",
+  "transfer_method": "FTP",
+  "bytes_sent": 5242880,
+  "alert_type": "policy_violation"
+}
+]

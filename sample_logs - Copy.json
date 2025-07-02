@@ -1,0 +1,15 @@
+[
+  {
+    "eventTime": "2025-06-30T10:22:00Z",
+    "eventName": "ConsoleLogin",
+    "sourceIPAddress": "198.51.100.23",
+    "userIdentity": { "userName": "admin" },
+    "responseElements": { "ConsoleLogin": "Success" }
+  },
+  {
+    "eventTime": "2025-06-30T02:03:12Z",
+    "eventName": "DeleteBucket",
+    "sourceIPAddress": "10.0.0.10",
+    "userIdentity": { "userName": "tejas" }
+  }
+]

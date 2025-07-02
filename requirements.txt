@@ -1,0 +1,10 @@
+streamlit
+pandas
+requests
+boto3
+python-dotenv
+scikit-learn
+openai
+elasticsearch
+
+
