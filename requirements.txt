@@ -6,5 +6,4 @@ python-dotenv
 scikit-learn
 openai
 elasticsearch
-
-
+fpdf
